@@ -30,7 +30,7 @@ public class MyServlet extends HttpServlet {
             info = "Time: " + now;
         }
         out.println("<html><body>");
-        out.println(time);
+        out.println(info);
         out.println("</body></html>");
     }
 }
