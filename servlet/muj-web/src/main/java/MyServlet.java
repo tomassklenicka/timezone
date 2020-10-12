@@ -27,7 +27,7 @@ public class MyServlet extends HttpServlet {
         if (isValid) {
             ZoneId zone = ZoneId.of(input);
             ZonedDateTime now = ZonedDateTime.now(zone);
-            time = "Time: " + now;
+            info = "Time: " + now;
         }
         out.println("<html><body>");
         out.println(time);
